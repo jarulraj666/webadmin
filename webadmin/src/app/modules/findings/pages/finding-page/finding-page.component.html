@@ -1,0 +1,17 @@
+<div class="">
+  <div class="findings-table">
+    <div class="row">
+      <div class="col-sm-4">
+        <app-findings
+          (changeFindingData)="changeData($event)"
+          [findingsDataToShow]="findingsData"
+        ></app-findings>
+      </div>
+      <div class="col-sm-8">
+        <div class="row" *ngFor="let subData of subFindingData">
+          {{ subData.title }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
