@@ -1,0 +1,17 @@
+<div class="">
+  <div class="findings-table">
+    <div class="row">
+      <div class="col-sm-4">
+        <app-findings
+          (changeFindingData)="changeData($event)"
+          [findingsDataToShow]="findingsData"
+        ></app-findings>
+      </div>
+      <div class="col-sm-8">
+        <app-finding-field
+          [findingFieldData]="subFindingData"
+        ></app-finding-field>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,380 @@
+{
+  "allFindings": [
+    {
+      "name": "Tooth Problems",
+      "findings": [
+        {
+          "title": "cavity"
+        },
+        {
+          "title": "Discoloured Teeth"
+        },
+        {
+          "title": "finding Folder A",
+          "findings": [
+            {
+              "title": "Finding Title"
+            },
+            {
+              "title": "Finding Title2"
+            },
+            {
+              "title": "Finding Title3"
+            },
+            {
+              "title": "Finding sub folder 1",
+              "findings": [
+                {
+                  "title": "subFinding1"
+                },
+                { "title": "subFinding2" },
+                {
+                  "title": "subFinding3"
+                }
+              ]
+            },
+            {
+              "title": "Finding sub folder 2",
+              "findings": [
+                {
+                  "title": "subFinding2.1"
+                },
+                { "title": "subFinding2.2" },
+                {
+                  "title": "subFinding2.3"
+                }
+              ]
+            },
+            {
+              "title": "Finding sub folder 3",
+              "findings": [
+                {
+                  "title": "subFinding3.1"
+                },
+                { "title": "subFinding3.2" },
+                {
+                  "title": "subFinding3.3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gum Problems",
+      "findings": [
+        {
+          "title": "cavity"
+        },
+        {
+          "title": "Discoloured Teeth"
+        },
+        {
+          "title": "finding Folder A",
+          "findings": [
+            {
+              "title": "Finding Title"
+            },
+            {
+              "title": "Finding Title2"
+            },
+            {
+              "title": "Finding Title3"
+            },
+            {
+              "title": "Finding sub folder 1",
+              "findings": [
+                {
+                  "title": "subFinding1"
+                },
+                { "title": "subFinding2" },
+                {
+                  "title": "subFinding3"
+                }
+              ]
+            },
+            {
+              "title": "Finding sub folder 2",
+              "findings": [
+                {
+                  "title": "subFinding1"
+                },
+                { "title": "subFinding2" },
+                {
+                  "title": "subFinding3"
+                }
+              ]
+            },
+            {
+              "title": "Finding sub folder 3",
+              "findings": [
+                {
+                  "title": "subFinding1"
+                },
+                { "title": "subFinding2" },
+                {
+                  "title": "subFinding3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cosemtic concerns",
+      "findings": [
+        {
+          "title": "cavity"
+        },
+        {
+          "title": "Discoloured Teeth"
+        },
+        {
+          "title": "finding Folder A",
+          "findings": [
+            {
+              "title": "Finding Title"
+            },
+            {
+              "title": "Finding Title2"
+            },
+            {
+              "title": "Finding Title3"
+            },
+            {
+              "title": "Finding sub folder 1",
+              "findings": [
+                {
+                  "title": "subFinding1"
+                },
+                { "title": "subFinding2" },
+                {
+                  "title": "subFinding3"
+                }
+              ]
+            },
+            {
+              "title": "Finding sub folder 2",
+              "findings": [
+                {
+                  "title": "subFinding1"
+                },
+                { "title": "subFinding2" },
+                {
+                  "title": "subFinding3"
+                }
+              ]
+            },
+            {
+              "title": "Finding sub folder 3",
+              "findings": [
+                {
+                  "title": "subFinding1"
+                },
+                { "title": "subFinding2" },
+                {
+                  "title": "subFinding3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Medical Issues",
+      "findings": [
+        {
+          "title": "cavity medical"
+        },
+        {
+          "title": "Discoloured Teeth"
+        },
+        {
+          "title": "finding Folder A",
+          "findings": [
+            {
+              "title": "Finding Title"
+            },
+            {
+              "title": "Finding Title2"
+            },
+            {
+              "title": "Finding Title3"
+            },
+            {
+              "title": "Finding sub folder 1",
+              "findings": [
+                {
+                  "title": "subFinding1"
+                },
+                { "title": "subFinding2" },
+                {
+                  "title": "subFinding3"
+                }
+              ]
+            },
+            {
+              "title": "Finding sub folder 2",
+              "findings": [
+                {
+                  "title": "subFinding1"
+                },
+                { "title": "subFinding2" },
+                {
+                  "title": "subFinding3"
+                }
+              ]
+            },
+            {
+              "title": "Finding sub folder 3",
+              "findings": [
+                {
+                  "title": "subFinding1"
+                },
+                { "title": "subFinding2" },
+                {
+                  "title": "subFinding3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Category Name",
+      "findings": [
+        {
+          "title": "cavity"
+        },
+        {
+          "title": "Discoloured Teeth"
+        },
+        {
+          "title": "finding Folder A",
+          "findings": [
+            {
+              "title": "Finding Title"
+            },
+            {
+              "title": "Finding Title2"
+            },
+            {
+              "title": "Finding Title3"
+            },
+            {
+              "title": "Finding sub folder 1",
+              "findings": [
+                {
+                  "title": "subFinding1"
+                },
+                { "title": "subFinding2" },
+                {
+                  "title": "subFinding3"
+                }
+              ]
+            },
+            {
+              "title": "Finding sub folder 2",
+              "findings": [
+                {
+                  "title": "subFinding1"
+                },
+                {
+                  "title": "subFinding2"
+                },
+                {
+                  "title": "subFinding3"
+                }
+              ]
+            },
+            {
+              "title": "Finding sub folder 3",
+              "findings": [
+                {
+                  "title": "subFinding1"
+                },
+                {
+                  "title": "subFinding2"
+                },
+                {
+                  "title": "subFinding3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Category Name",
+      "findings": [
+        {
+          "title": "cavity"
+        },
+        {
+          "title": "Discoloured Teeth"
+        },
+        {
+          "title": "finding Folder A",
+          "findings": [
+            {
+              "title": "Finding Title"
+            },
+            {
+              "title": "Finding Title2"
+            },
+            {
+              "title": "Finding Title3"
+            },
+            {
+              "title": "Finding sub folder 1",
+              "findings": [
+                {
+                  "title": "subFinding1"
+                },
+                {
+                  "title": "subFinding2"
+                },
+                {
+                  "title": "subFinding3"
+                }
+              ]
+            },
+            {
+              "title": "Finding sub folder 2",
+              "findings": [
+                {
+                  "title": "subFinding1"
+                },
+                {
+                  "title": "subFinding2"
+                },
+                {
+                  "title": "subFinding3"
+                }
+              ]
+            },
+            {
+              "title": "Finding sub folder 3",
+              "findings": [
+                {
+                  "title": "subFinding3.1"
+                },
+                {
+                  "title": "subFinding3.2"
+                },
+                {
+                  "title": "subFinding3.3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="col-sm-3">
+    <div *ngFor="let data of findingFieldData.findings">
+      <label *ngIf="data.findings; else elseBlock" (click)="changeData(data)">
+        {{ data.title }}</label
+      >
+      <ng-template #elseBlock>{{ data.title }}</ng-template>
+    </div>
+  </div>
+</div>
