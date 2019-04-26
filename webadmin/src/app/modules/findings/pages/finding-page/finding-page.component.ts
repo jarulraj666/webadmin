@@ -1,4 +1,5 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, Inject, Renderer2 } from "@angular/core";
+import { DOCUMENT } from "@angular/common";
 import { NGXLogger } from "ngx-logger";
 import { DataListService } from "../../../core/services/data-list.service";
 @Component({
@@ -8,16 +9,23 @@ import { DataListService } from "../../../core/services/data-list.service";
 })
 export class FindingPageComponent implements OnInit {
   constructor(
+    @Inject(DOCUMENT) private document: Document,
     private dataListService: DataListService,
-    private logger: NGXLogger
+    private logger: NGXLogger,
+    private renderer: Renderer2
   ) {}
 
   findingsData: any[] = null;
-  subFindingData: any[] = null;
+  subFindingData: any[] = new Array();
   errorMessage: any = null;
 
   ngOnInit() {
+    this.renderer.addClass(this.document.body, "login-body");
     this.getDataList("findingsData.json");
+  }
+
+  ngOnDestroy(): void {
+    this.renderer.removeClass(this.document.body, "login-body");
   }
 
   /**
@@ -39,6 +47,12 @@ export class FindingPageComponent implements OnInit {
   }
 
   changeData(event) {
-    this.subFindingData = event.findings;
+    this.subFindingData = event;
+    if (event instanceof Array) {
+      console.log("instance array");
+    } else {
+      this.subFindingData = event;
+    }
+    console.log(this.subFindingData);
   }
 }

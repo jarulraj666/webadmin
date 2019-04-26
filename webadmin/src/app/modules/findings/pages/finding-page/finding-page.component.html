@@ -8,9 +8,9 @@
         ></app-findings>
       </div>
       <div class="col-sm-8">
-        <div class="row" *ngFor="let subData of subFindingData">
-          {{ subData.title }}
-        </div>
+        <app-finding-field
+          [findingFieldData]="subFindingData"
+        ></app-finding-field>
       </div>
     </div>
   </div>
